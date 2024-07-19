@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animate 10s ease infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-color: cyan;
+    }
+
+    50% {
+        background-color: rgb(163, 209, 225);
+    }
+
+    100% {
+        background-color: cyan;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.eye {
+    font-size: 100px;
+    background-color: white;
+}
+
+.details {
+    background-color: white;
+}
+
+h1 {
+    background-color: white;
+}
+
+p {
+    background-color: white;
+}
+
+.btn {
+    background-color: rgb(3, 118, 250);
+}
